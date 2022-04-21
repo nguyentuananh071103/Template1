@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+    <meta name="description"
+          content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
     <!-- title -->
-    <title>Fruitkha</title>
+    <title>Contact</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -30,7 +31,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
     <!-- responsive -->
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
-
 </head>
 <body>
 
@@ -63,66 +63,55 @@
         </div>
     </div>
 </div>
-<!-- end search area -->
+<!-- end search arewa -->
 
-<!-- hero area -->
-<div class="hero-area hero-bg">
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9 offset-lg-2 text-center">
-                <div class="hero-text">
-                    <div class="hero-text-tablecell">
-                        <p class="subtitle">Fresh & Organic</p>
-                        <h1>Delicious Seasonal Fruits</h1>
-                        <div class="hero-btns">
-                            <a href="shop.html" class="boxed-btn">Fruit Collection</a>
-                            <a href="contact.html" class="bordered-btn">Contact Us</a>
-                        </div>
-                    </div>
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p>Get 24/7 Support</p>
+                    <h1>Contact us</h1>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- end hero area -->
+<!-- end breadcrumb section -->
 
-<!-- features list section -->
-@include('sections.features')
-<!-- end features list section -->
+<!-- contact form -->
+@include('sections.contact')
+<!-- end contact form -->
 
-<!-- product section -->
-@include('sections.product_section')
-<!-- end product section -->
+<!-- find our location -->
+<div class="find-location blue-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p><i class="fas fa-map-marker-alt"></i> Find Our Location</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end find our location -->
 
-<!-- cart banner section -->
-@include('sections.cart_banner')
-<!-- end cart banner section -->
+<!-- google map section -->
+<div class="embed-responsive embed-responsive-21by9">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26432.42324808999!2d-118.34398767954286!3d34.09378509738966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1576846473265!5m2!1sen!2sbd"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+        class="embed-responsive-item"></iframe>
+</div>
+<!-- end google map section -->
 
-<!-- testimonail-section -->
-@include('sections.testimonail')
-<!-- end testimonail-section -->
-
-<!-- advertisement section -->
-@include('sections.advertisement')
-<!-- end advertisement section -->
-
-<!-- shop banner -->
-@include('sections.shop_banner')
-<!-- end shop banner -->
-
-<!-- latest news -->
-@include('sections.latest_news')
-<!-- end latest news -->
-
-<!-- logo carousel -->
-@include('sections.logo_carousel')
-<!-- end logo carousel -->
 
 <!-- footer -->
 @include('partial.footer')
 <!-- end footer -->
-@include('sections.copyrights')
+
 <!-- copyright -->
+@include('sections.copyrights')
 <!-- end copyright -->
 
 <!-- jquery -->

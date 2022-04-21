@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
     <!-- title -->
-    <title>Fruitkha</title>
+    <title>Shop</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -63,56 +64,26 @@
         </div>
     </div>
 </div>
-<!-- end search area -->
+<!-- end search arewa -->
 
-<!-- hero area -->
-<div class="hero-area hero-bg">
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9 offset-lg-2 text-center">
-                <div class="hero-text">
-                    <div class="hero-text-tablecell">
-                        <p class="subtitle">Fresh & Organic</p>
-                        <h1>Delicious Seasonal Fruits</h1>
-                        <div class="hero-btns">
-                            <a href="shop.html" class="boxed-btn">Fruit Collection</a>
-                            <a href="contact.html" class="bordered-btn">Contact Us</a>
-                        </div>
-                    </div>
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p>Fresh and Organic</p>
+                    <h1>Shop</h1>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- end hero area -->
+<!-- end breadcrumb section -->
 
-<!-- features list section -->
-@include('sections.features')
-<!-- end features list section -->
-
-<!-- product section -->
-@include('sections.product_section')
-<!-- end product section -->
-
-<!-- cart banner section -->
-@include('sections.cart_banner')
-<!-- end cart banner section -->
-
-<!-- testimonail-section -->
-@include('sections.testimonail')
-<!-- end testimonail-section -->
-
-<!-- advertisement section -->
-@include('sections.advertisement')
-<!-- end advertisement section -->
-
-<!-- shop banner -->
-@include('sections.shop_banner')
-<!-- end shop banner -->
-
-<!-- latest news -->
-@include('sections.latest_news')
-<!-- end latest news -->
+<!-- products -->
+@include('sections.product')
+<!-- end products -->
 
 <!-- logo carousel -->
 @include('sections.logo_carousel')
@@ -121,8 +92,9 @@
 <!-- footer -->
 @include('partial.footer')
 <!-- end footer -->
-@include('sections.copyrights')
+
 <!-- copyright -->
+@include('sections.copyrights')
 <!-- end copyright -->
 
 <!-- jquery -->
